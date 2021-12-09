@@ -1,8 +1,10 @@
 {
-  "extends": "next/core-web-vitals",
+  
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
   "rules": {
     "jsx-a11y/alt-text": 0,
     "import/no-anonymous-default-export": 0,
-    "quotes": "warn"
+    "quotes": "warn",
+    "@typescript-eslint/no-explicit-any": "error"
   }
 }
