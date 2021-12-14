@@ -1,19 +1,12 @@
-const colors = require("tailwindcss/colors");
-
 module.exports = {
-  mode: "jit",
-  purge: ["./src/**/*.{ts,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+    "./src/client/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    colors,
     cursor: {
       "col-resize": "col-resize",
     }
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [
-    require("@tailwindcss/forms")
-  ]
+  plugins: []
 }
