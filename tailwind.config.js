@@ -8,7 +8,11 @@ module.exports = {
   theme: {
     colors: {
       ...colors,
-      primary: colors.cyan,
+      primary: colors.indigo,
+      success: colors.green,
+      danger: colors.red,
+      warning: colors.amber,
+      info: colors.blue,
     },
     cursor: {
       "col-resize": "col-resize",
