@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
@@ -13,9 +13,6 @@ module.exports = {
       danger: colors.red,
       warning: colors.amber,
       info: colors.blue,
-    },
-    cursor: {
-      "col-resize": "col-resize",
     }
   },
   plugins: []
