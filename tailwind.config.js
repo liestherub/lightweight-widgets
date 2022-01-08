@@ -6,14 +6,18 @@ module.exports = {
     "./src/client/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      ...colors,
-      primary: colors.indigo,
-      success: colors.green,
-      danger: colors.red,
-      warning: colors.amber,
-      info: colors.blue,
-    }
+    extend: {
+      colors: {
+        primary: colors.indigo,
+        success: colors.green,
+        danger: colors.red,
+        warning: colors.amber,
+        info: colors.blue,
+      },
+      cursor: {
+        "col-resize": "col-resize",
+      },
+    },
   },
-  plugins: []
-}
+  plugins: [],
+};
