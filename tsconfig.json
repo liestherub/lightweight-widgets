@@ -18,6 +18,7 @@
     "incremental": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "downlevelIteration":true,
     "types": ["react/next"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
