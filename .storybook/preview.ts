@@ -1,7 +1,12 @@
 import "tailwindcss/tailwind.css";
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  options: {
+    enableShortcuts: false,
+  },
+  actions: {
+    argTypesRegex: "^on[A-Z].*",
+  },
   controls: {
     matchers: {
       color: /(background|color)$/i,
