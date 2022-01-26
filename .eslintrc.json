@@ -1,5 +1,11 @@
 {
-  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "simple-import-sort"
+  ],
   "rules": {
     "jsx-a11y/alt-text": 0,
     "import/no-anonymous-default-export": 0,
@@ -13,6 +19,8 @@
         "ts-nocheck": "allow-with-description",
         "ts-check": "allow-with-description"
       }
-    ]
+    ],
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn"
   }
 }
