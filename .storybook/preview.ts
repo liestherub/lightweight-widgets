@@ -1,3 +1,4 @@
+import { themes } from '@storybook/theming';
 import "tailwindcss/tailwind.css";
 
 export const parameters = {
@@ -13,4 +14,11 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  darkMode: {
+    dark: {
+      ...themes.dark,
+      appContentBg: "black"
+    },
+  }
+
 }
