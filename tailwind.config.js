@@ -16,5 +16,11 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("tailwindcss-animate")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("tailwindcss-animate"),
+    require("tailwindcss-autofill"),
+    require("tailwindcss-shadow-fill"),
+    require("tailwindcss-text-fill"),
+  ],
 };
