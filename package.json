@@ -1,0 +1,56 @@
+{
+  "name": "lightweight-widgets",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build-docs": "build-storybook -o docs"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^5.0.1",
+    "@dnd-kit/sortable": "^6.0.0",
+    "@heroicons/react": "^1.0.5",
+    "@types/node": "^17.0.23",
+    "classnames": "^2.3.1",
+    "react-hot-toast": "^2.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.5.3",
+    "@storybook/addon-links": "^6.5.3",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-storysource": "^6.5.3",
+    "@storybook/react": "^6.5.3",
+    "@tailwindcss/typography": "^0.5.0",
+    "@types/classnames": "^2.2.6",
+    "@types/faker": "^5.5.9",
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.14",
+    "dotenv-cli": "^4.1.1",
+    "eslint": "7.32.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "faker": "^5.5.3",
+    "husky": "^7.0.0",
+    "jest": "^27.5.1",
+    "jest-mock-extended": "^2.0.4",
+    "lint-staged": ">=10",
+    "postcss": "^8.4.5",
+    "storybook-dark-mode": "^1.1.0",
+    "tailwindcss": "^3.0.2",
+    "tailwindcss-animate": "^1.0.5",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2",
+    "tailwindcss-autofill": "^1.0.2",
+    "tailwindcss-shadow-fill": "^1.0.1",
+    "tailwindcss-text-fill": "^0.2.0"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx}": "eslint --fix"
+  }
+}

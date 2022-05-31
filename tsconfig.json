@@ -2,13 +2,7 @@
   "compilerOptions": {
     "baseUrl": "src",
     "target": "es2018",
-    "lib": [
-      "es2018",
-      "dom",
-      "dom.iterable",
-      "esnext",
-      "esnext.asynciterable"
-    ],
+    "lib": ["es2018", "dom", "dom.iterable", "esnext", "esnext.asynciterable"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -25,18 +19,8 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "downlevelIteration": true,
-    "types": [
-      "node",
-      "react/next",
-      "@types/jest"
-    ]
+    "types": ["node", "@types/jest"]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
