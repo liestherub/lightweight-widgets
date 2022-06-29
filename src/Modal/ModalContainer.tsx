@@ -46,6 +46,7 @@ export const ModalContainer: React.FC<ModalContainerProps> = ({
             "inset-0",
             "transition-colors",
             "duration-200",
+            "backdrop-blur-sm",
             status === "OPEN" && [
               "animate-in",
               "fade-in",
